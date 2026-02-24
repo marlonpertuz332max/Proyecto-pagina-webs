@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecniwebs - Soluciones Tecnológicas Profesionales</title>
+    <!-- Font Awesome para iconos profesionales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="professional-page">
+        <!-- HEADER PROFESIONAL -->
+        <header class="header" id="header">
+            <nav class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Tecniwebs</span>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#tarjeta">Tarjeta Digital</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1>Tecniwebs</h1>
+                <p>Soluciones tecnológicas profesionales con más de 10 años de experiencia en mantenimiento y reparación de computadores</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Solicitar Servicio</a>
+                    <a href="#tarjeta" class="btn btn-outline">Ver Tarjeta Digital</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TARJETA DIGITAL -->
+        <section class="digital-card-section" id="tarjeta">
+            <h2 class="section-title">Tarjeta Digital Profesional</h2>
+            <p class="section-subtitle">Interactúa con nuestra tarjeta digital - Pasa el mouse para ver ambos lados</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <!-- FRONT CARD -->
+                    <div class="card-front">
+                        <div class="icon-top">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        
+                        <div class="profile-section">
+                            <div class="name">Teníco Marlon Pertuz</div>
+                            <div class="title">Mantenimiento de Computadores</div>
+                            
+                            <div class="services">
+                                <span class="service-item">Consulta</span>
+                                <span class="service-item">Atención</span>
+                                <span class="service-item">Reparación</span>
+                                <span class="service-item">Créditos</span>
+                            </div>
+                        </div>
+                        
+                        <div class="icon-bottom">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                    </div>
+
+                    <!-- BACK CARD -->
+                    <div class="card-back">
+                        <div class="company-logo">
+                            <div class="company-name">Tecniwebs</div>
+                            <div class="company-tagline">Soluciones Tecnológicas</div>
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="contact-detail">
+                                <i class="fas fa-globe"></i>
+                                <span>www.tecniwebs.com.co</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <span>contacto@tecniwebs.co</span>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+57 300 123 4567</span>
+                            </div>
+                        </div>
+
+                        <button class="contact-button" onclick="window.location.href='#contacto'">
+                            Contáctanos <i class="fas fa-arrow-right"></i>
+                        </button>
+
+                        <!-- Simulador de QR Code -->
+                        <div class="qr-code" title="Código QR - Escanea para contactar"></div>
+                        <p class="qr-text">Escanea para contacto directo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section class="services-section" id="servicios">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Soluciones integrales para tus necesidades tecnológicas</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-medical"></i>
+                    </div>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Limpieza profunda, optimización de software y prevención de fallos para mantener tu equipo en óptimas condiciones.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Reparación de Hardware</h3>
+                    <p>Diagnóstico y reparación de fallas en componentes físicos: placas madre, fuentes de poder, pantallas y más.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Eliminación de Virus</h3>
+                    <p>Limpieza de malware, spyware y virus. Instalación de software de seguridad y recuperación de sistemas.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Respaldo de Datos</h3>
+                    <p>Recuperación y respaldo de información importante. Configuración de sistemas de backup automáticos.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Configuración de Redes</h3>
+                    <p>Instalación y configuración de redes domésticas y empresariales. Soluciones WiFi y cableado estructurado.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Créditos y Financiación</h3>
+                    <p>Facilidades de pago y créditos directos para tus reparaciones y mantenimientos tecnológicos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PORTAFOLIO -->
+        <section class="portfolio-section" id="portafolio">
+            <h2 class="section-title">Casos de Éxito</h2>
+            <p class="section-subtitle">Algunos de nuestros trabajos recientes</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Reparación HP Pavilion</h3>
+                        <p>Reemplazo de pantalla y mantenimiento completo</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>PC Gamer Custom</h3>
+                        <p>Ensamblaje y configuración de equipo gaming de alta gama</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <h3>Servidor Empresarial</h3>
+                        <p>Configuración de servidor y sistema de backup automático</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section class="contact-section" id="contacto">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">Estamos listos para atenderte</p>
+            
+            <div class="contact-container">
+                <div class="contact-info-box">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Calle 123 #45-67, Barranquilla, Colombia</p>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+57 300 123 4567</p>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contacto@tecniwebs.co</p>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Lunes a Viernes: 8:00 AM - 6:00 PM<br>Sábados: 9:00 AM - 2:00 PM</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre completo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="¿En qué podemos ayudarte?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        Enviar Mensaje <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tecniwebs</h3>
+                    <p>Expertos en mantenimiento y reparación de computadores con más de 10 años de experiencia en el sector tecnológico.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#tarjeta">Tarjeta Digital</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Mantenimiento Preventivo</a></li>
+                        <li><a href="#">Reparación de Hardware</a></li>
+                        <li><a href="#">Eliminación de Virus</a></li>
+                        <li><a href="#">Respaldo de Datos</a></li>
+                        <li><a href="#">Configuración de Redes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir consejos y promociones</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email" required>
+                        <button type="submit">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tecniwebs - Todos los derechos reservados | Diseñado por Teníco Marlon Pertuz</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Principal -->
+    <script src="js/main.js"></script>
+</body>
+</html>
